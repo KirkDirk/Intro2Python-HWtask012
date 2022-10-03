@@ -18,5 +18,5 @@ print(somelist)
 compositionlist = []
 for i in range(sizelist//2):
     compositionlist.append(somelist[i]*somelist[-i-1])
-if (sizelist % 2 == 1): compositionlist.append(somelist[sizelist//2])
+if (sizelist % 2 == 1): compositionlist.append(somelist[sizelist//2]**2)
 print(compositionlist)
